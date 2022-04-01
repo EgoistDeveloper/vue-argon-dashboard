@@ -17,31 +17,31 @@ import StatsCard from "../components/StatsCard";
 import TabPane from "../components/Tabs/TabPane";
 import Tabs from "../components/Tabs/Tabs";
 
-import { ElTooltip, ElPopover } from "element-plus";
+import { ElTooltip, ElPopover } from "element-plus/lib";
 
 const GlobalComponents = {
-  install(app) {
-    app.component("badge", Badge);
-    app.component("base-alert", BaseAlert);
-    app.component("base-button", BaseButton);
-    app.component("base-checkbox", BaseCheckbox);
-    app.component("base-dropdown", BaseDropdown);
-    app.component("base-header", BaseHeader);
-    app.component("base-input", BaseInput);
-    app.component("base-nav", BaseNav);
-    app.component("base-pagination", BasePagination);
-    app.component("base-progress", BaseProgress);
-    app.component("base-switch", BaseSwitch);
-    app.component("base-radio", BaseRadio);
-    app.component("base-table", BaseTable);
-    app.component("card", Card);
-    app.component("modal", Modal);
-    app.component("stats-card", StatsCard);
-    app.component("tab-pane", TabPane);
-    app.component("tabs", Tabs);
-    app.use(ElTooltip);
-    app.use(ElPopover);
-  },
+    install(app) {
+        app.component("badge", Badge);
+        app.component("base-alert", BaseAlert);
+        app.component("base-button", BaseButton);
+        app.component("base-checkbox", BaseCheckbox);
+        app.component("base-dropdown", BaseDropdown);
+        app.component("base-header", BaseHeader);
+        app.component("base-input", BaseInput);
+        app.component("base-nav", BaseNav);
+        app.component("base-pagination", BasePagination);
+        app.component("base-progress", BaseProgress);
+        app.component("base-switch", BaseSwitch);
+        app.component("base-radio", BaseRadio);
+        app.component("base-table", BaseTable);
+        app.component("card", Card);
+        app.component("modal", Modal);
+        app.component("stats-card", StatsCard);
+        app.component("tab-pane", TabPane);
+        app.component("tabs", Tabs);
+        app.use(ElTooltip);
+        app.use(ElPopover);
+    },
 };
 
 export default GlobalComponents;

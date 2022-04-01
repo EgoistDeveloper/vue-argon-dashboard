@@ -7,9 +7,9 @@ import "../assets/scss/argon.scss";
 import SidebarPlugin from "../components/SidebarPlugin";
 
 export default {
-  install(app) {
-    app.use(SidebarPlugin);
-    app.use(GlobalComponents);
-    app.use(GlobalDirectives);
-  },
+    install(app) {
+        app.use(SidebarPlugin);
+        app.use(GlobalComponents);
+        app.use(GlobalDirectives);
+    },
 };
