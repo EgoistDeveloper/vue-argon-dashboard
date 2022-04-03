@@ -38,6 +38,19 @@
                         path: '/tables',
                     }"
                 />
+
+                <!-- UI Elements Start -->
+
+                <sidebar-item
+                    :link="{
+                        name: 'Modals',
+                        icon: 'ni ni-atom text-orange',
+                        path: '/modals',
+                    }"
+                />
+
+                <!-- UI Elements End -->
+
                 <sidebar-item
                     :link="{
                         name: 'Login',
@@ -45,6 +58,7 @@
                         path: '/login',
                     }"
                 />
+
                 <sidebar-item
                     :link="{
                         name: 'Register',
