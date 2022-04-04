@@ -55,12 +55,15 @@
                             <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
                                 <img alt="Image placeholder" src="img/theme/team-1-800x800.jpg" />
                             </a>
+
                             <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
                                 <img alt="Image placeholder" src="img/theme/team-2-800x800.jpg" />
                             </a>
+
                             <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
                                 <img alt="Image placeholder" src="img/theme/team-3-800x800.jpg" />
                             </a>
+
                             <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
                                 <img alt="Image placeholder" src="img/theme/team-4-800x800.jpg" />
                             </a>
@@ -70,6 +73,7 @@
                     <td>
                         <div class="d-flex align-items-center">
                             <span class="completion mr-2">{{ row.item.completion }}%</span>
+
                             <div>
                                 <base-progress :type="row.item.statusType" :show-percentage="false" class="pt-0" :value="row.item.completion" />
                             </div>
@@ -84,11 +88,11 @@
                                 </a>
                             </template>
 
-                            <template>
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </template>
+                            <li class="dropdown-item">Action</li>
+
+                            <li class="dropdown-item">Another action</li>
+
+                            <li class="dropdown-item">Something else here</li>
                         </base-dropdown>
                     </td>
                 </template>

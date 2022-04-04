@@ -14,11 +14,13 @@
                 <span class="no-icon">{{ title }}</span>
             </a>
         </slot>
+
         <ul class="dropdown-menu" ref="menu" :class="[{ 'dropdown-menu-right': position === 'right' }, { show: isOpen }, menuClasses]">
             <slot></slot>
         </ul>
     </component>
 </template>
+
 <script>
 export default {
     name: "base-dropdown",
@@ -75,6 +77,7 @@ export default {
     },
 };
 </script>
+
 <style>
 .dropdown {
     list-style-type: none;
