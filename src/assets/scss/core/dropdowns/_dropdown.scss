@@ -24,6 +24,10 @@
             vertical-align: -17%;
         }
     }
+
+    li {
+        cursor: pointer;
+    }
 }
 
 .dropdown-header {
@@ -57,10 +61,6 @@
                 color: theme-color("default") !important;
             }
         }
-    }
-
-    li {
-        cursor: pointer;
     }
 }
 
