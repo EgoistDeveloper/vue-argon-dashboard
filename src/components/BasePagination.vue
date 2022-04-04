@@ -5,9 +5,11 @@
                 <span aria-hidden="true"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
             </a>
         </li>
+
         <li class="page-item" :class="{ active: value === item }" :key="item" v-for="item in range(minPage, maxPage)">
             <a class="page-link" @click="changePage(item)">{{ item }}</a>
         </li>
+
         <li class="page-item next-page" :class="{ disabled: value === totalPages }">
             <a class="page-link" aria-label="Next" @click="nextPage">
                 <span aria-hidden="true"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
@@ -15,6 +17,7 @@
         </li>
     </ul>
 </template>
+
 <script>
 export default {
     name: "base-pagination",
