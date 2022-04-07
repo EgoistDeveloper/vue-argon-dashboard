@@ -60,6 +60,7 @@
     }
 
     &.table-dark {
+        // overwrite dropdown menu
         .dropdown-menu {
             background-color: $table-dark-head-bg;
             border-color: $table-dark-accent-bg;
