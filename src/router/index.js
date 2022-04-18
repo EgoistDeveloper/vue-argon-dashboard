@@ -9,6 +9,7 @@ import Maps from "../views/Maps.vue";
 import Profile from "../views/UserProfile.vue";
 import Tables from "../views/Tables.vue";
 import Modals from "../views/Modals.vue";
+import Notifications from "../views/Notifications.vue";
 
 import Login from "../views/Login.vue";
 import Register from "../views/Register.vue";
@@ -48,6 +49,11 @@ const routes = [
                 path: "/modals",
                 name: "modals",
                 components: { default: Modals },
+            },
+            {
+                path: "/notifications",
+                name: "notifications",
+                components: { default: Notifications },
             },
         ],
     },

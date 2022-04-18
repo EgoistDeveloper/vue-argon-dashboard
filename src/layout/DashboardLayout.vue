@@ -49,6 +49,14 @@
                     }"
                 />
 
+                <sidebar-item
+                    :link="{
+                        name: 'Notifications',
+                        icon: 'ni ni-bell-55 text-green',
+                        path: '/Notifications',
+                    }"
+                />
+
                 <!-- UI Elements End -->
 
                 <sidebar-item
