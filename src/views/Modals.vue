@@ -27,7 +27,7 @@
         </template>
     </modal>
 
-    <!-- Modal 1 -->
+    <!-- Modal 2 -->
     <modal ref="modal2" v-model:show="isOpenModal2" modalClasses="modal-lg">
         <template v-slot:header>
             <h1>Register Form</h1>
