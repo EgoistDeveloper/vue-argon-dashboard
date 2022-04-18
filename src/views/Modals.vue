@@ -208,15 +208,15 @@ A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea
 
                         <div class="row">
                             <div class="col-3">
-                                <button class="btn btn-default" @click="showModal1()">Show Modal 1</button>
+                                <button class="btn btn-default" @click="showModal1()">Text Modal</button>
                             </div>
 
                             <div class="col-3">
-                                <button class="btn btn-default" @click="showModal2()">Show Modal 2</button>
+                                <button class="btn btn-default" @click="showModal2()">Form Modal</button>
                             </div>
 
                             <div class="col-3">
-                                <button class="btn btn-default" @click="showModal3()">Show Modal 3</button>
+                                <button class="btn btn-default" @click="showModal3()">Close Button Modal</button>
                             </div>
                         </div>
                     </card>
