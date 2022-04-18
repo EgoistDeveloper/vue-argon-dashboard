@@ -228,7 +228,7 @@ A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea
 
 <script>
 export default {
-    name: "modals",
+    name: "modals-page",
     data() {
         return {
             model: {
